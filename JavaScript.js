@@ -3,10 +3,8 @@ var textTranslate = document.querySelector("#txt-box");
 var textOutput = document.querySelector("#txt-output")
 
 
-
 function clickHandler() {
-    console.log("clicked happen");
-    console.log("input", textTranslate.value);
+    textOutput.innerText = "bhbhbh " + textTranslate.value
     } 
 
 btnTranslate.addEventListener("click", clickHandler)
