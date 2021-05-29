@@ -5,16 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translate Application</title>
+    <style>
+        textarea{
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+            width: 80%;
+            height: 15vh;
+        }
+        #txt-output{
+            border: black 1px solid;
+            padding: 1rem;
+            margin: 1rem;
+            width: 80%;
+            height: 15vh;
+
+        }
+    </style>
 
 </head>
 <body>
     <h1>Translate here</h1>
     
-    <textarea id ="txt-box" name="txt"></textarea>
+    <textarea id ="txt-box" name="txt" 
+    placeholder="put your sentence is English here and we will convert it to any language"></textarea>
 
     <button id ="first-btn">Translate</button>
 
-    <div class="txt-output"></div>
+    <div>Output will come here 👇</div>
+    <div id="txt-output"></div>
 
 
     <script src ="JavaScript.js" type="text/JavaScript"></script>
