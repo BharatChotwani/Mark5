@@ -1,3 +1,5 @@
+var btnTranslate = document.querySelector("#first-btn")
 
-// var person = prompt ("plaese enter your name");
-// alert("Hello! I am a robot welcome!! " + person);
+btnTranslate.addEventListener("click", function clickHandler() {
+console.log("clicked happen")
+} )
